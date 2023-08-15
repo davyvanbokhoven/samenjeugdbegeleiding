@@ -1,0 +1,63 @@
+title: 'Link blocks'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      type: text
+      localizable: true
+      listable: hidden
+      display: Title
+  -
+    handle: link_blocks
+    field:
+      fields:
+        -
+          handle: icon
+          field:
+            max_files: 1
+            mode: grid
+            container: images
+            restrict: false
+            allow_uploads: true
+            show_filename: true
+            show_set_alt: true
+            type: assets
+            display: Icon
+            icon: assets
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            hide_display: false
+        -
+          handle: title
+          field:
+            input_type: text
+            type: text
+            localizable: true
+            listable: hidden
+            validate: required
+            display: Title
+        -
+          handle: text
+          field: common.text_plain
+        -
+          handle: section_button
+          field:
+            type: section
+            display: Button
+        -
+          import: button
+      mode: stacked
+      min_rows: 1
+      add_row: 'Add link block'
+      reorderable: true
+      type: grid
+      localizable: true
+      listable: hidden
+      display: 'Link blocks'
+      replicator_preview: false
+      instructions_position: above
+      visibility: visible
+      fullscreen: true
+      hide_display: false

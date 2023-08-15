@@ -1,0 +1,21 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+<!-- /default.antlers.html -->
+<main id="content">
+    <div class="h-64 lg:h-96 mb-8">
+      {{
+          partial:statamic-peak-tools::components/picture
+          :image="featured_image"
+          class="w-full h-full object-cover"
+          cover="false"
+          lazy="true"
+      }}
+    </div>
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+</main>
+<!-- End: /default.antlers.html -->

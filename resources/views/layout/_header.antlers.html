@@ -1,0 +1,24 @@
+{{#
+    @name Header
+    @desc The sites header rendered on each page.
+#}}
+
+<!-- /layout/_header.antlers.html -->
+<header class="w-full lg:py-6">
+    <div class="fluid-container flex justify-between items-center">
+        {{# Make partials you want to use for the header or use and edit premade examples like the following ones. #}}
+        {{ partial:components/logo width="120" }}
+        {{ partial:navigation/main }}
+        {{ if social_media:social_media }}
+            <div class="hidden lg:block flex space-x-2">
+                {{ social_media:social_media }}
+                    <a class="inline-flex items-center" href="{{ prefix }}{{ handle }}" rel="noopener{{ type == 'mastodon' ?= ' me' }}" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" class="w-3 h-3 overflow-visible fill-blue-900 hover:fill-primary" alt="" aria-hidden="true" sanitize="true" }}</a>
+                {{ /social_media:social_media }}
+            </div>
+        {{ /if }}
+    </div>
+</header>
+<div class="w-full">
+  <img src="/images/back-line.jpg" class="w-full">
+</div>
+<!-- End: /layout/_header.antlers.html -->

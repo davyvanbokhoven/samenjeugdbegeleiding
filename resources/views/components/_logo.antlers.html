@@ -1,0 +1,14 @@
+{{#
+    @name Logo
+    @desc The logo component with a `width` attribute.
+#}}
+
+<!-- /components/_logo.antlers.html -->
+<a
+    class="inline-block text-lg font-bold"
+    aria-label="Logo {{ config:app:name }}"
+    href="{{ site:url }}"
+>
+    <img src="/visuals/logo.png" class="h-16 {{ class }}" width="auto" alt="{{ config:app:name }}"/>
+</a>
+<!-- End: /components/_logo.antlers.html -->

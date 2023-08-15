@@ -1,0 +1,37 @@
+{{#
+    @name Button attributes
+    @desc A single button component. Faux is used when a button is displayed inside a link (for example in link blocks).
+    @param* label The caption label.
+    @param as The wrapping element. Defaults to `a`.
+    @param button_type `Inline` if the button needs to be rendered as an inline button.
+    @param faux Boolean. For faux button wrapped in an actual button/anchor.
+    @param inverted Boolean. When the button needs inverted styles.
+#}}
+
+<!-- /components/_button.antlers.html -->
+{{ if label }}
+    <{{ as or 'a' }}
+        {{ slot:attributes }}
+        class="
+            inline-block w-full md:w-auto mb-4 md:mr-6 py-2 px-6 text-sm font-semibold border-2 border-transparent transition duration-200 rounded-3xl
+            {{ if button_type === 'inline' }}
+                bg-blue-800 text-white hover:bg-blue-900
+                {{ inverted
+                    ? 'text-white'
+                    : 'text-blue-800'
+                }}
+            {{ else }}
+                inline-block w-full md:w-auto mb-4 md:mr-6 py-3 px-8 text-sm font-bold uppercase border-2 border-transparent transition duration-200 rounded-3xl
+                {{ inverted
+                    ? 'bg-blue-800 hover:bg-white hover:text-blue-800 text-white'
+                    : 'bg-white hover:bg-blue-800 hover:text-white text-blue-800'
+                }}
+            {{ /if }}
+            {{ class }}
+        "
+        {{ !faux ?= { partial:snippets/button_attributes } }}
+    >
+        {{ link_type == 'email' ? { label | obfuscate_email } : label }}
+    </{{ as or 'a' }}>
+{{ /if }}
+<!-- End: /components/_button.antlers.html -->

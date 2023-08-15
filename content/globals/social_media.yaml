@@ -1,0 +1,15 @@
+title: 'Social media'
+data:
+  social_media:
+    -
+      id: llamvynq
+      handle: SAMENlaarbeek
+      prefix: 'https://www.facebook.com/'
+      type: facebook
+      enabled: true
+    -
+      id: llamw89r
+      handle: samenjeugdbegeleiding
+      prefix: 'https://www.instagram.com/'
+      type: instagram
+      enabled: true

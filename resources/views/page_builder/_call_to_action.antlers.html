@@ -1,0 +1,20 @@
+{{#
+	@name Call to action
+	@desc The call to action page builder block.
+    @set page.page_builder.call_to_action
+#}}
+
+<!-- /page_builder/_call_to_action.antlers.html -->
+<div class="w-full mt-5">
+  <img src="/images/back-line.jpg" class="w-full" />
+</div>
+<section class="relative py-24 bg-red-500">
+  <div class="container px-4 mx-auto">
+    <div class="max-w-4xl mx-auto text-center">
+      {{ partial:typography/h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-white" :content="block:title" }}
+      {{ partial:typography/p class="max-w-3xl mx-auto mb-10 text-lg text-white" :content="block:text" }}
+      {{ block:buttons ?= { partial:components/buttons } }}
+    </div>
+  </div>
+</section>
+<!-- End: /page_builder/_call_to_action.antlers.html -->
