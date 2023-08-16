@@ -2,6 +2,7 @@
 id: 4a4efb62-3a01-49bb-bf8b-91339fafe713
 blueprint: page
 title: Contact
+template: templates/contact
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry

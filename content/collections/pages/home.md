@@ -2,6 +2,7 @@
 id: home
 blueprint: page
 title: Home
+template: templates/home
 updated_by: 9e758b47-4e14-42ce-89c9-cc71011148d4
 updated_at: 1692017936
 seo_noindex: false

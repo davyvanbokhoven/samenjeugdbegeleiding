@@ -1,0 +1,18 @@
+{{#
+    @name Contact
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+<!-- /contact.antlers.html -->
+<main id="content">
+    <div class="relative w-full h-96">
+        <iframe class="absolute top-0 left-0 w-full h-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9361811475624!2d5.632548951721276!3d51.51438681791291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c721999eb46e7b%3A0x8316ab37a16107d1!2sOpstal%207%2C%205735%20CA%20Aarle-Rixtel!5e0!3m2!1snl!2snl!4v1614689172712!5m2!1snl!2snl"
+            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
+    </div>
+    {{ page_builder scope="block" }}
+        {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+</main>
+<!-- End: /contact.antlers.html -->

@@ -15,16 +15,16 @@
         class="
             inline-block w-full md:w-auto mb-4 md:mr-6 py-2 px-6 text-sm font-semibold border-2 border-transparent transition duration-200 rounded-3xl
             {{ if button_type === 'inline' }}
-                bg-blue-800 text-white hover:bg-blue-900
+                bg-neutral text-white hover:bg-neutral
                 {{ inverted
                     ? 'text-white'
-                    : 'text-blue-800'
+                    : 'text-neutral'
                 }}
             {{ else }}
                 inline-block w-full md:w-auto mb-4 md:mr-6 py-3 px-8 text-sm font-bold uppercase border-2 border-transparent transition duration-200 rounded-3xl
                 {{ inverted
-                    ? 'bg-blue-800 hover:bg-white hover:text-blue-800 text-white'
-                    : 'bg-white hover:bg-blue-800 hover:text-white text-blue-800'
+                    ? 'bg-white hover:bg-neutral hover:text-white text-neutral'
+                    : 'bg-neutral hover:bg-yellow-400 hover:text-neutral text-white'
                 }}
             {{ /if }}
             {{ class }}

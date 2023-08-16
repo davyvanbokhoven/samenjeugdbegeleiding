@@ -12,7 +12,7 @@
         {{ if social_media:social_media }}
             <div class="hidden lg:block flex space-x-2">
                 {{ social_media:social_media }}
-                    <a class="inline-flex items-center" href="{{ prefix }}{{ handle }}" rel="noopener{{ type == 'mastodon' ?= ' me' }}" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" class="w-3 h-3 overflow-visible fill-blue-900 hover:fill-primary" alt="" aria-hidden="true" sanitize="true" }}</a>
+                    <a class="inline-flex items-center" href="{{ prefix }}{{ handle }}" rel="noopener{{ type == 'mastodon' ?= ' me' }}" aria-label="{{ config:app:name }} {{ trans:strings.on }} {{ type | title }}" target="_blank">{{ svg :src="type" class="w-4 h-4 overflow-visible fill-blue-900 hover:fill-primary" alt="" aria-hidden="true" sanitize="true" }}</a>
                 {{ /social_media:social_media }}
             </div>
         {{ /if }}

@@ -4,6 +4,7 @@ blueprint: page
 title: 'Page not found'
 page_builder:
   -
+    id: KdEhSN0D
     article:
       -
         type: heading
@@ -12,13 +13,13 @@ page_builder:
         content:
           -
             type: text
-            text: '404 Page not found'
+            text: '404 Pagina niet gevonden'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'The page you requested is not available (anymore).'
+            text: 'De door u opgevraagde pagina is niet (meer) beschikbaar.'
     type: article
     enabled: true
 seo_noindex: true
@@ -26,6 +27,7 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 66c6ff90-a9a2-42ba-a4e1-c0872e344786
-updated_at: 1646921434
+updated_by: 9e758b47-4e14-42ce-89c9-cc71011148d4
+updated_at: 1692091641
+featured_image: f02.jpg
 ---
