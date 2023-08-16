@@ -8,7 +8,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9e758b47-4e14-42ce-89c9-cc71011148d4
-updated_at: 1692017957
+updated_at: 1692187046
 page_builder:
   -
     id: llap4csh
@@ -32,7 +32,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Alle zorgmedewerkers van SAMEN Jeugdbegeleiding zijn getraind in het begeleiden van mensen met een psychiatrische stoornis, zoals autisme of ADHD, maar ook opgeleid voor het ontwikkelen van praktische en sociale vaardigheden. Daarnaast zijn al onze medewerkers in het bezit van een Verklaring Omtrent Gedrag en een certificaat EHBO en bedrijfshulpverlening.'
+            text: 'Alle zorgmedewerkers van SAMEN Jeugdbegeleiding zijn getraind in het begeleiden van mensen met een psychiatrische stoornis, zoals autisme of ADHD, maar ook opgeleid voor het ontwikkelen van praktische en sociale vaardigheden. Daarnaast zijn al onze medewerkers in het bezit van een Verklaring Omtrent Gedrag en een certificaat EHBO en bedrijfshulpverlening. '
     type: article
     enabled: true
   -
