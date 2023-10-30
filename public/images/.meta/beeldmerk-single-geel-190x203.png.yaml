@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Beeldmerk Geel'
 size: 15055
 last_modified: 1692005293
 width: 190

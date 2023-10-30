@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Beeldmerk achtergrond'
 size: 110550
 last_modified: 1692000895
 width: 4569

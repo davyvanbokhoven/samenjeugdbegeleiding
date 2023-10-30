@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Kind in ballenbak'
 size: 64529
 last_modified: 1692006920
 width: 500

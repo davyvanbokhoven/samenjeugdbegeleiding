@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Beeldmerk Rood'
 size: 15086
 last_modified: 1692005285
 width: 190

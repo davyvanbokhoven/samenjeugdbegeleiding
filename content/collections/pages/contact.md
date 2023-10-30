@@ -9,7 +9,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 9e758b47-4e14-42ce-89c9-cc71011148d4
-updated_at: 1692018077
+updated_at: 1697124741
 page_builder:
   -
     id: llaq0869
@@ -81,6 +81,7 @@ page_builder:
     form: contact
     type: form
     enabled: true
+    title: 'Stuur ons een bericht'
 featured_image: f05.jpg
 seo_title: 'Contact - Samen Jeugdbegeleiding'
 seo_description: 'Wil je contact opnemen met ons? De mensen van SAMEN Jeugdbegeleiding staan je graag te woord!'

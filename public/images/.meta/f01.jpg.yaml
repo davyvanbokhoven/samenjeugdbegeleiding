@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'kind maakt een tekening met gekleurde potloden'
 size: 232840
 last_modified: 1692007783
 width: 1200

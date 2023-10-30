@@ -4,7 +4,7 @@ blueprint: page
 title: Home
 template: templates/home
 updated_by: 9e758b47-4e14-42ce-89c9-cc71011148d4
-updated_at: 1692017936
+updated_at: 1697124015
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -49,7 +49,9 @@ page_builder:
       -
         id: kLOscU5A
         title: 'Specialistische groepbegeleiding'
-        text: 'Kinderverjaardagen zijn altijd bijzonder. Vooral wanneer er vier kaarsjes op de taart staan: dan is je kindje gepromoveerd van peuter tot kleuter en mag hij of zij naar de basisschool! Klaar om nieuwe dingen te ontdekken en te leren!'
+        text: |-
+          ### Specialistische groepbegeleiding
+          Kinderverjaardagen zijn altijd bijzonder. Vooral wanneer er vier kaarsjes op de taart staan: dan is je kindje gepromoveerd van peuter tot kleuter en mag hij of zij naar de basisschool! Klaar om nieuwe dingen te ontdekken en te leren!
         label: 'Meer informatie'
         link_type: entry
         target_blank: false
@@ -59,7 +61,9 @@ page_builder:
       -
         id: ll6mab9v
         title: 'Individuele begeleiding'
-        text: 'SAMEN Jeugdbegeleiding verzorgt naast groepsbegeleiding ook individuele begeleiding. Deze begeleiding vindt plaats op de plek waar de hulpvraag het meest speelt.'
+        text: |-
+          ### Individuele begeleiding
+          SAMEN Jeugdbegeleiding verzorgt naast groepsbegeleiding ook individuele begeleiding. Deze begeleiding vindt plaats op de plek waar de hulpvraag het meest speelt.
         label: 'Meer informatie'
         link_type: entry
         target_blank: false

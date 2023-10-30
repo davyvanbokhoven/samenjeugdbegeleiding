@@ -30,17 +30,33 @@ fields:
             visibility: visible
             hide_display: false
         -
-          handle: title
-          field:
-            input_type: text
-            type: text
-            localizable: true
-            listable: hidden
-            validate: required
-            display: Title
-        -
           handle: text
-          field: common.text_plain
+          field:
+            restrict: false
+            buttons:
+              - bold
+              - italic
+              - unorderedlist
+              - orderedlist
+              - quote
+              - link
+              - image
+              - table
+            automatic_line_breaks: true
+            automatic_links: false
+            escape_markup: false
+            heading_anchors: false
+            smartypants: false
+            table_of_contents: false
+            antlers: false
+            type: markdown
+            display: Text
+            icon: markdown
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            replicator_preview: true
+            hide_display: false
         -
           handle: section_button
           field:

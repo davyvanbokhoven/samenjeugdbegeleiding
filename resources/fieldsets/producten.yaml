@@ -44,18 +44,6 @@ fields:
                     instructions_position: above
                     visibility: visible
                     hide_display: false
-                -
-                  handle: title
-                  field:
-                    input_type: text
-                    antlers: false
-                    type: text
-                    display: Title
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    hide_display: false
       type: replicator
       display: Product
       icon: replicator
@@ -63,3 +51,4 @@ fields:
       instructions_position: above
       visibility: visible
       hide_display: false
+      replicator_preview: true

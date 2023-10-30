@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Gekleurde divider'
 size: 6726
 last_modified: 1692003914
 width: 2560
