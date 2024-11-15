@@ -3,7 +3,7 @@ data:
   social_media:
     -
       id: llamvynq
-      handle: SAMENlaarbeek
+      handle: SAMENjeugdbegeleiding
       prefix: 'https://www.facebook.com/'
       type: facebook
       enabled: true
